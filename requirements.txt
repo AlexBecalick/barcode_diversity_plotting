@@ -1,0 +1,6 @@
+pytest
+coverage
+numpy
+matplotlib
+ipywidgets
+IPython
