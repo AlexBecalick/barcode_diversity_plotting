@@ -1,0 +1,9 @@
+language: python
+
+install:
+
+  -pip install -r requirementss.txt
+
+script:
+
+  -pytest
