@@ -1,5 +1,5 @@
 """
-Unit tests for the calculation function
+Unit tests for the calculation function.
 """
 
 import pytest
