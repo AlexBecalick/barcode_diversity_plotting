@@ -6,4 +6,4 @@ install:
 
 script:
 
-  - cd diversity_plotting && pytest
+  - cd testing && pytest
