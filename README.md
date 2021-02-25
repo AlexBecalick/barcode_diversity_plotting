@@ -1,2 +1,2 @@
-# Barcode diversity plotting [![Build Status](https://travis-ci.com/AlexBecalick/barcode_diversity_plotting.svg?branch=main)](https://travis-ci.com/AlexBecalick/barcode_diversity_plotting)
+# Barcode diversity plotting [![Build Status](https://travis-ci.com/AlexBecalick/barcode_diversity_plotting.svg?branch=main)](https://travis-ci.com/AlexBecalick/barcode_diversity_plotting)[![codecov](https://codecov.io/gh/AlexBecalick/barcode_diversity_plotting/branch/main/graph/badge.svg?token=35U4376KRB)](https://codecov.io/gh/AlexBecalick/barcode_diversity_plotting)
 For generating barcode diversity plots
