@@ -3,8 +3,8 @@ Unit tests for the calculation function.
 """
 import pytest
 import sys
-import numpy
-from .diversity_plotting import diversity_calculation_funcs as df
+import numpy as np
+from diversity_plotting.diversity_calculation_funcs import my_data
 
 
 def test_barcode_array_generation():
@@ -18,6 +18,6 @@ def test_barcode_array_generation():
        [ 8.        ,  1.08328707],
        [ 9.        ,  1.09417428],
        [10.        ,  1.10517092]])
-    actual = list(df.my_data(10, 100, 1, 1))
+    actual = my_data(10, 100, 1, 1)
     
     np.testing.assert_allclose(expected, actual, rtol=1e-06)
