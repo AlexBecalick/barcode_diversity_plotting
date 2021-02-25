@@ -2,10 +2,10 @@
 Unit tests for the calculation function.
 """
 import pytest
-import sys
 import numpy as np
-from diversity_calculation_funcs import my_data
-
+import sys
+sys.path.append('../')
+from diversity_plotting import diversity_calculation_funcs
 
 def test_barcode_array_generation():
     expected = np.array([[ 1.        ,  1.01005017],
