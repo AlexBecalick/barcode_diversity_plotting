@@ -5,7 +5,7 @@ import pytest
 import numpy as np
 import sys
 sys.path.append('../')
-from diversity_plotting import diversity_calculation_funcs
+from diversity_plotting import diversity_calculation_funcs as df
 
 def test_barcode_array_generation():
     expected = np.array([[ 1.        ,  1.01005017],
@@ -18,6 +18,6 @@ def test_barcode_array_generation():
        [ 8.        ,  1.08328707],
        [ 9.        ,  1.09417428],
        [10.        ,  1.10517092]])
-    actual = my_data(10, 100, 1, 1)
+    actual = df.my_data(10, 100, 1, 1)
     
     np.testing.assert_allclose(expected, actual, rtol=1e-06)
