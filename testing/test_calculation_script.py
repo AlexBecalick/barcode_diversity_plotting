@@ -4,7 +4,7 @@ Unit tests for the calculation function.
 import pytest
 import sys
 import numpy as np
-from diversity_plotting.diversity_calculation_funcs import my_data
+from diversity_calculation_funcs import my_data
 
 
 def test_barcode_array_generation():
