@@ -7,3 +7,7 @@ install:
 script:
 
   - cd testing && pytest
+  - coverage run -m pytest # tell Travis CI to do coverage analysis
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) # send coverage results to codecov
